@@ -1,0 +1,71 @@
+.tutorial-section {
+  background-color: #f9f9f9;
+  padding-bottom: 45px;
+}
+
+.tutorial-section h2 {
+  margin-bottom: 20px;
+}
+
+.tutorial-section h2 {
+  padding: 20px 0 15px 0;
+}
+
+.tutorial-item {
+  position: relative;
+  background: #f6f6f6;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding: 25px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.tutorial-item-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -4%;
+  top: 35%;
+  background-color: #9356dc;
+  font-size: 0.7rem;
+  color: #f9f9f9;
+  width: 24px;
+  height: 24px;
+  border-radius: 5000px;
+}
+
+.tutorial-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.tutorial-line {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+@media (min-width: 800px) {
+  .tutorial-section {
+    padding-bottom: 10px;
+  }
+
+  .tutorial-list {
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .tutorial-list li {
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,78 @@
+.restaurant-feed {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 25px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.restaurant-section h2 {
+  margin: 20px 0 15px 0;
+}
+
+.restaurant-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  width: 100%;
+}
+
+.state-tag {
+  position: absolute;
+  right: 4%;
+  top: 1%;
+  font-size: 0.8rem;
+  background: #99e2d0;
+  color: #008766;
+  padding: 7px;
+}
+
+.img-card-wrapper img {
+  object-fit: cover !important;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.restaurant-card-description {
+  padding: 15px;
+}
+
+.restaurant-card-description h3 {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.restaurant-card-description p {
+  font-weight: 300;
+}
+
+.description-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description-wrapper .fa-heart {
+  margin-right: 15px;
+}
+
+@media (min-width: 800px) {
+  .restaurant-section {
+    background-color: #f6f6f6;
+  }
+
+  .state-tag {
+    position: absolute;
+    top: 3%;
+    right: 2%;
+  }
+
+  .restaurant-feed {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+  }
+  .img-card-wrapper img {
+    height: 150px;
+  }
+}
