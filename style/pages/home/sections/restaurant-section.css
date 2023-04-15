@@ -76,3 +76,7 @@
     height: 150px;
   }
 }
+
+.description-wrapper .fa-solid.fa-heart {
+  color: #9356dc;
+}

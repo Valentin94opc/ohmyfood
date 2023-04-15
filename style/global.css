@@ -54,12 +54,12 @@ button {
   cursor: pointer;
 }
 
-.fa-regular.fa-heart {
+.heart-container .fa-regular.fa-heart {
   top: 37px;
   position: absolute;
 }
 
-.fa-solid.fa-heart {
+.heart-container .fa-solid.fa-heart {
   top: 36.5px;
   position: absolute;
   color: transparent;
