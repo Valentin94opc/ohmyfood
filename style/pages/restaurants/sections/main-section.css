@@ -12,7 +12,7 @@
   border-radius: 30px;
 }
 
-.menu-wrapper {
+.menu-inner-wrapper {
   padding: 15px;
 }
 
@@ -71,11 +71,16 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.menu-title-list-wrapper {
+  display: flex;
+  flex-direction: column;
   animation: fadeIn 1s ease-in forwards;
   opacity: 0;
 }
 
-.menu-list h3 {
+.menu-title-list-wrapper h3 {
   text-transform: uppercase;
   position: relative;
   margin-bottom: 15px;
@@ -117,7 +122,7 @@
   font-weight: bold;
 }
 
-.menus-wrapper {
+.menus-lists-wrapper {
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -135,12 +140,15 @@
     height: 400px;
   }
 
+  .menus-lists-wrapper {
+    align-items: center;
+  }
+
   .menu-wrapper h1 {
     text-align: center;
   }
 
   .menu-list {
-    margin: 0 auto;
     width: 600px;
   }
 
