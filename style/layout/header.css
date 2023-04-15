@@ -12,7 +12,7 @@ header {
   margin: 0 auto;
 }
 
-header button {
+.arrow-container {
   margin-left: 10px;
 }
 
